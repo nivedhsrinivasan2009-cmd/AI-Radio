@@ -1,0 +1,12 @@
+flask>=3.0
+twilio>=8.0
+pygame>=2.5
+requests>=2.31
+gTTS>=2.5
+ollama>=0.3
+pydub>=0.25
+python-dotenv>=1.0
+numpy>=1.26
+scipy>=1.11
+# Off-air monitor with a real RTL-SDR stick (optional, install when the stick arrives):
+#   pip install pyrtlsdr pyrtlsdrlib

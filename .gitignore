@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+.cache
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+tortoise_env*/
+
+# Editors / tools
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Listener data (phone numbers) and runtime output
+users.json
+users.json.bak
+output/
+*.log
+tmp/
+*.tmp
+
+# Station data that is generated or not ours to publish
+station_data/logs/
+station_data/audiovault_dropbox/
+station_data/safe_default.wav
+
+# Media: music, ads and jingles are copyrighted — add your own locally
+songs/
+ads/
+theme songs/
+program announcements/
+*.mp3
